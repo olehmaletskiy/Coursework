@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Стандарт одномісний",
+        "image_paths": [
+            "assets/img/rooms/standart/1.jpg",
+            "assets/img/rooms/standart/22.jpg",
+            "assets/img/rooms/standart/3.jpg"
+        ]
+    },
+    {
+        "type": "Стандарт двомісний",
+        "image_paths": [
+            "assets/img/rooms/standart_double/double1.jpg",
+            "assets/img/rooms/standart_double/double2.jpg",
+            "assets/img/rooms/standart_double/double3.jpg"
+        ]
+    },
+    {
+        "type": "Стандарт сімейний",
+        "image_paths": [
+            "assets/img/rooms/standart_family/family1.jpg",
+            "assets/img/rooms/standart_family/family2.jpg",
+            "assets/img/rooms/standart_family/family3.jpg"
+        ]
+    },
+    {
+        "type": "Напівлюкс",
+        "image_paths": [
+            "assets/img/rooms/halfLux/halfLux1.jpg",
+            "assets/img/rooms/halfLux/halfLux2.jpg",
+            "assets/img/rooms/halfLux/halfLux3.jpg"
+        ]
+    },
+    {
+        "type": "Люкс",
+        "image_paths": [
+            "assets/img/rooms/lux/1.jpg",
+            "assets/img/rooms/lux/2.jpg",
+            "assets/img/rooms/lux/3.jpg"
+        ]
+    }
+]

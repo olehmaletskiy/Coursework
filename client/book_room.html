@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lumia</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/book_room.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Lumia</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="#contact">Контакти</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <!-- ======= Rooms Section ======= -->
+    <section class="rooms-section section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="room_type_title"></h2>
+        </div>
+
+        <div class="rooms-container">
+          <div class="container">
+            <div class="images_container">
+              <div class="secondary_images"></div>
+            </div>
+            <h5 class="full_description"></h5>
+            <p class="price"></p>
+          </div>
+
+
+
+          <div class="row form">
+            <div class="col-lg-10">
+              <form action="/" method="post" role="form" class="book_form">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" name="name" class="form-control user_firstname" placeholder="Ім'я" required>
+                  </div>
+                  <div class="col-md-12 form-group mt-3">
+                    <input type="text" name="lastname" class="form-control user_lastname" placeholder="Прізвище" required>
+                  </div>
+                  <div class="col-md-12 form-group mt-3">
+                    <input class="form-control user_phone" name="phone" id="phone" placeholder="Номер телефону" required>
+                  </div>
+                  <div class="col-md-12 form-group mt-3">
+                    <input type="email" class="form-control user_email" name="email" id="email" placeholder="Електронна пошта" required>
+                  </div>
+                </div>
+                <div class="dates_container">
+                  <div class="form-group mt-3">
+                    <label for="start_date">З: </label>
+                    <input 
+                      type="date" 
+                      id="start_date" 
+                      min="2022-01-01"
+                      max="2022-12-30"
+                    >
+                  </div>
+                  <div class="form-group mt-3 ms-3">
+                    <label for="end_date">По: </label>
+                    <input 
+                      type="date" 
+                      id="end_date" 
+                      min="2022-01-02"
+                      max="2022-12-31"
+                    >
+                  </div>
+                  <div class="form-group mt-3 ms-3">
+                    <label for="end_date">Кількість осіб: </label>
+                    <input 
+                      type="number" 
+                      id="guests" 
+                      value="1"
+                      min="1"
+                      max="4"
+                    >
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control user_comment" name="message" rows="5" placeholder="Коментар"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary confirm_btn mt-3 mb-3">Підтвердити</button>
+              </form>
+            </div>
+  
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Rooms Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Контакти</h2>
+          <p>Додаткова інформація щодо готелю</p>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Адреса:</h4>
+                  <p>Пр. Перемоги, 13<br>Львів, Україна 79000</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Електронна пошта:</h4>
+                  <p>lumia_info@gmail.com<br>lumia_problem@gmail.com</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-phone"></i>
+                  <h4>Телефон:</h4>
+                  <p>+38 (095) 171-48-55<br>+38 (098) 171-48-55</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Lumia</h3>
+            <p>
+              Пр. Перемоги, 13 <br>
+              Львів 79000 <br>
+              Україна  <br><br>
+              <strong>Телефон:</strong> +38 (095) 171-48-55<br>
+              <strong>Електронна пошта:</strong> lumia_info@gmail.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div class="error-container"></div>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script type="module" src="assets/js/booking.js"></script>
+
+</body>
+
+</html>

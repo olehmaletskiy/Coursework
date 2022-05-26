@@ -1,0 +1,48 @@
+#main {
+    margin-top: 50px;
+}
+
+.images_container {
+    display: flex;
+}
+
+.images_container img {
+    margin: 3px;
+}
+
+.images_container .main_image {
+    width: 65%;
+    height: 400px;
+}
+.images_container .secondary_image {
+    width: 100%;
+    height: 197px;
+}
+
+.images_container .secondary_images {
+    width: 35%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container .full_description {
+    padding-top: 20px;
+}
+
+.container .price {
+    padding: 10px 0;
+}
+
+.form {
+    margin-left: 0px;
+}
+
+.form .dates_container {
+    display: flex;
+}
+
+.room_type_description {
+    color: rgb(141, 0, 0);
+}
